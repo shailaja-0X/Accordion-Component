@@ -1,0 +1,48 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  padding: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.accordian
+{
+  max-width: 500px;
+  margin: auto;
+}
+
+.item
+{
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.title
+{
+  width: 100%;
+  padding: 15px;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.content
+{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 15px;
+}
+
+.content p{
+  padding: 15px 0;
+}
+
